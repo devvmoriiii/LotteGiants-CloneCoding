@@ -74,7 +74,7 @@
       </a>
     </div>
 
-    <!-- ? 메뉴바 클릭 시 전체 메뉴 -->
+    <!-- ? 메뉴바 클릭 시 전체 메뉴 (hidden)-->
     <div class="all-navi hidden">
       <div class="all-navi-header">
         <span>ALL NAVIGATION</span>
@@ -374,14 +374,14 @@
         </div>
       </div>
     
-      <!-- ? 메인 메뉴 호버 시 서브 메뉴 -->
+      <!-- ? 메인 메뉴 호버 시 서브 메뉴 (hidden) -->
       <div class="main-header-detail-wrap hidden">
         <div class="main-header-detail">
           <div class="changingDiv">
             <div class="intro-hover">
               <div class="intro-hover-summary">
                 <ul>
-                  <li class="blockList">
+                  <li class="">
                     <a href="https://www.giantsclub.com/html/?pcode=855">
                       <span>구단소개</span>
                       <span>+</span>
@@ -887,8 +887,8 @@
         </div>
       </div>
 
-      <!-- ? 배경 이미지 위의 링크 -->
-      <a href="https://sporki.com/kbaseball/schedule/todaygame?teamSeq=173&utm_source=lottegiants&utm_medium=affiliate&utm_campaign=kbase_game&utm_content=giants_banner" target="_blank"><!--중계 보러가기--></a>
+      <!-- ? BG-3 바로가기 링크 (hidden - 수정 중) -->
+      <!-- <area shape="rect" coords="822,615,1104,679" href="https://sporki.com/kbaseball/schedule/todaygame?teamSeq=173&utm_source=lottegiants&utm_medium=affiliate&utm_campaign=kbase_game&utm_content=giants_banner" alt="" target="_blank" class="BG3-link hidden"> -->
 
       <!-- ? 배경 전환 바 -->
       <div class="BG-change-bar-wrap">
@@ -916,24 +916,29 @@
               </a>
             </div>
             <div class="game-sche-content">
-              <div class="previous-game">이전경기</div>
-              <span class="game-date">10.16 월요일 18:30 [대전]</span>
-          
-              <div class="game-sche-result">
-                <div class="team1">
+              <div class="game-sche1">
+                <div class="previous-game">이전경기</div>
+                <span class="game-date">10.16 월요일 18:30 [대전]</span>
+                <div class="game-sche-result">
+                  <div class="team1">
                     <img src="resources/images/hanhwa-logo.png" alt="한화이글스" class="inlineImg">
-                  <span>한화</span>
-                </div>
-                <div class="score">
-                  <span>2 : 7</span>
-                  <div class="borderUnderline-medium"></div>
-                  <span>경기종료</span>
-                  <div class="borderUnderline-medium"></div>
-                </div>
-                <div class="team2">
+                    <span>한화</span>
+                  </div>
+                  <div class="score">
+                    <span>2 : 7</span>
+                    <div class="borderUnderline-medium"></div>
+                    <span>경기종료</span>
+                    <div class="borderUnderline-medium"></div>
+                  </div>
+                  <div class="team2">
                     <img src="resources/images/giants-logo.png" alt="롯데자이언츠" class="inlineImg">
-                  <span>롯데</span>
+                    <span>롯데</span>
+                  </div>
                 </div>
+              </div>
+              <div class="game-sche2">
+              </div>
+              <div class="game-sche3">
               </div>
             </div>
           </div>
@@ -945,7 +950,7 @@
           <div class="facebook-link banner">
             <a href="https://www.facebook.com/lottegiantsbusan/" target="_blank">
               <img src="resources/images/sns_bn1.png" alt="페이스북 바로가기">
-              <button><i class="fa-solid fa-arrow-right"></i></button>
+              <button class="snsBtn"><i class="fa-solid fa-arrow-right"></i></button>
             </a>
           </div>
         </div>
@@ -971,7 +976,7 @@
               </div>
               <div class="blackBG">
                 <a class="giants-photo2" href="https://www.giantsclub.com/html/?pcode=418&bcIdx=9&MODE=V&bidx=157202">
-                  <span>23.10.15 LG전</span>
+                  <span>23.10.05 LG전</span>
                 </a>
                 </div>
               <div class="blackBG">
@@ -990,13 +995,13 @@
           <div class="youtube-link banner">
             <a href="https://www.youtube.com/channel/UCAZQZdSY5_YrziMPqXi-Zfw" target="_blank">
               <img src="resources/images/sns_bn2.png" alt="유튜브 바로가기">
-              <button><i class="fa-solid fa-arrow-right"></i></button>
+              <button class="snsBtn"><i class="fa-solid fa-arrow-right"></i></button>
             </a>
           </div>
         </div>
 
       <!-- ? 전체 섹션 - 세 번째 섹션 -->
-        <div class="section3 test">
+        <div class="section3">
           <div class="giants-news">
             <div class="giants-news-header">
               <h3 id="leftAlign">자이언츠 뉴스</h3>
@@ -1007,41 +1012,43 @@
                 </div>
               </a>
             </div>
-
-            <a class="giants-news-content" href="https://www.giantsclub.com/html/?pcode=783&bcIdx=1&MODE=V&bidx=157206">
-              <div class="newsImageDate">
-                <div class="newsImg">
-                  <img src="" alt="뉴스 이미지 미리보기">
+            <div class="giants-news-content">
+              <a class="giants-news1" href="https://www.giantsclub.com/html/?pcode=783&bcIdx=1&MODE=V&bidx=157206">
+                <div class="newsImageDate">
+                  <div class="newsImg">
+                    <img src="resources/images/news-image1.jpg" alt="뉴스 이미지 미리보기">
+                  </div>
+                  <div class="newsDate">
+                    <span>2023-10-20</span>
+                  </div>
                 </div>
-                <div class="newsDate">
-                  <span>2023-10-20</span>
+                <div class="newsText">
+                  <span class="newsHeader">롯데, 김태형 감독 선임</span>
+                  <span class="newsP">
+                    롯데, 김태형 감독 선임 
+                    롯데가 20일(금) 롯데자이언츠 제21대 김태형 감독을 선임했다.
+                    김태형 신임 감독은 신일고와 단국대를 졸업하고 1990년 OB 베어스에 입단해 2001년까지 선수 시절을 보냈다. 은퇴 직후 두산베어스와 SK와이번스에서 배터리 코치를 역임하며 지도자 경력을 쌓았고
+                    2015년에
+                    첫 감독 커리어를 시작하여 8년간 두산 베어스에서 사령탑을 맡았다.
+                  </span>
                 </div>
-              </div>
-              <div class="newsText">
-                <span class="newsHeader">롯데, 김태형 감독 선임</span>
-                <span class="newsP">
-                  롯데, 김태형 감독 선임
-                  롯데가 20일(금) 롯데자이언츠 제21대 김태형 감독을 선임했다.
-                  김태형 신임 감독은 신일고와 단국대를 졸업하고 1990년 OB 베어스에 입단해 2001년까지 선수 시절을 보냈다. 은퇴 직후 두산베어스와 SK와이번스에서 배터리 코치를 역임하며 지도자 경력을 쌓았고 2015년에
-                  첫 감독 커리어를 시작하여 8년간 두산 베어스에서 사령탑을 맡았다.
-                </span>
-              </div>
-            </a>
-
-            <a class="giants-news-content" href="https://www.giantsclub.com/html/?pcode=783&bcIdx=1&MODE=V&bidx=157206">
-              <div class="newsImageDate">
-                <div class="newsImg">
-                  <img src="" alt="뉴스 이미지 미리보기">
+              </a>
+            
+              <a class="giants-news2" href="https://www.giantsclub.com/html/?pcode=783&bcIdx=1&MODE=V&bidx=157206">
+                <div class="newsImageDate">
+                  <div class="newsImg">
+                    <img src="resources/images/news-image2.jpg" alt="뉴스 이미지 미리보기">
+                  </div>
+                  <div class="newsDate">
+                    <span>2023-10-19</span>
+                  </div>
                 </div>
-                <div class="newsDate">
-                  <span>2023-10-19</span>
+                <div class="newsText">
+                  <span class="newsHeader">2024불펜포수 용역계약 공고</span>
+                  <span class="newsP"></span>
                 </div>
-              </div>
-              <div class="newsText">
-                <span class="newsHeader">2024불펜포수 용역계약 공고</span>
-                <span class="newsP"></span>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
 
           <div class="ticketSite-link banner">
@@ -1067,7 +1074,9 @@
           <div class="instagram-link banner">
             <a href="https://www.instagram.com/busanlottegiants/" target="_blank">
               <img src="resources/images/sns_bn3.png" alt="인스타그램 바로가기">
-              <button><i class="fa-solid fa-arrow-right"></i></button>
+              <button class="snsBtn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </a>
           </div>
         </div>
@@ -1077,111 +1086,111 @@
     <!-- !하단 광고 배너 -->
     
     <!-- !footer -->
-    <div class="footer-wrap">
+    <div class="all-footer-wrap">
       <div class="add-wrap">
         <div class="addBar">
-          <div class="adds">
-            <div class="add1">
+          <ul class="adds">
+            <li class="add1">
               <a href="http://www.jaseng.co.kr/" target="_blank">
                 <img src="resources/images/add1.jpg" alt="">
               </a>
-            </div>
-            <div class="add2">
+            </li>
+            <li class="add2">
               <a href="http://www.mediwoman.com/" target="_blank">
                 <img src="resources/images/add2.jpg" alt="">
               </a>
-            </div>
-            <div class="add3">
+            </li>
+            <li class="add3">
               <a href="http://www.busanskin.co.kr/" target="_blank">
                 <img src="resources/images/add3.jpg" alt="">
               </a>
-            </div>
-            <div class="add4">
+            </li>
+            <li class="add4">
               <a href="http://www.bscentral.co.kr/" target="_blank">
                 <img src="resources/images/add4.jpg" alt="">
               </a>
-            </div>
-            <div class="add5">
+            </li>
+            <li class="add5">
               <a href="http://www.himnaneun.co.kr/" target="_blank">
                 <img src="resources/images/add5.jpg" alt="">
               </a>
-            </div>
-            <div class="add6">
+            </li>
+            <li class="add6">
               <a href="http://www.samsun.or.kr/" target="_blank">
                 <img src="resources/images/add6.jpg" alt="">
               </a>
-            </div>
-            <div class="add7">
+            </li>
+            <li class="add7">
               <a href="http://www.busanmc.or.kr/" target="_blank">
                 <img src="resources/images/add7.jpg" alt="">
               </a>
-            </div>
-            <div class="add8">
+            </li>
+            <li class="add8">
               <a href="http://www.hshos.com/" target="_blank">
                 <img src="resources/images/add8.jpg" alt="">
               </a>
-            </div>
-            <div class="add9">
+            </li>
+            <li class="add9">
               <a href="http://ulsanjoongang.co.kr/" target="_blank">
                 <img src="resources/images/add9.jpg" alt="">
               </a>
-            </div>
-            <div class="add10">
+            </li>
+            <li class="add10">
               <a href="http://www.ush.kr/" target="_blank">
                 <img src="resources/images/add10.jpg" alt="">
               </a>
-            </div>
-            <div class="add11">
+            </li>
+            <li class="add11">
               <a href="http://www.sehunghospital.co.kr/" target="_blank">
                 <img src="resources/images/add11.jpg" alt="">
               </a>
-            </div>
-            <div class="add12">
+            </li>
+            <li class="add12">
               <a href="http://www.hivue.co.kr/" target="_blank">
                 <img src="resources/images/add12.jpg" alt="">
               </a>
-            </div>
-          </div>
-          <div class="startStop-btn">
+            </li>
+          </ul>
+          <div class="startStop">
             <button>></button>
             <button>⏸</button>
           </div>
         </div>
       </div>
 
-      <div class="footer">
-        <div class="footer-icon">
-          <i class="fa-solid fa-circle-exclamation"></i>
-          <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <div class="footer-text">
-          <div class="footer-text-link">
-            <a href="https://www.giantsclub.com/html/?pcode=613">개인정보처리방침</a> <span>|</span>
-            <a href="https://www.giantsclub.com/html/?pcode=854">영상정보처리기기 운영ㆍ관리 방침</a> <span>|</span>
-            <a href="https://www.giantsclub.com/html/?pcode=615">이메일주소무단수집거부</a> <span>|</span>
-            <a href="https://www.giantsclub.com/html/?pcode=614">이용약관</a>
+      <div class="footer-wrap">
+        <div class="footer">
+          <div class="footer-text">
+            <div class="footer-text-link">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <a class="boldText" href="https://www.giantsclub.com/html/?pcode=613">개인정보처리방침</a> <span>|</span>
+              <a href="https://www.giantsclub.com/html/?pcode=854">영상정보처리기기 운영ㆍ관리 방침</a> <span>|</span>
+              <a href="https://www.giantsclub.com/html/?pcode=615">이메일주소무단수집거부</a> <span>|</span>
+              <a href="https://www.giantsclub.com/html/?pcode=614">이용약관</a>
+            </div>
+            <div class="footer-text-giantsInfo">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>(주)롯데자이언츠 대표: 이강훈</span>
+              <span>사업자등록번호: 607-81-19196</span>
+              <span> 통신판매업신고번호: 2008-부산동래-0283</span>
+              <span>부산광역시 동래구 사직로 45</span>
+            </div>
+            <div class="footer-text-ticketSellerInfo">
+              <span>티켓판매대행사 : (주)대홍기획</span>
+              <span>사업자등록번호 : 821-88-01030</span>
+              <span>대표자명 : 홍성현</span>
+              <span>주소 : 서울시 중구 통일로 10</span>
+            </div>
+            <div class="footer-text-highlight">
+              <span>티켓콜센터. (051) 852-1982 (분실물 처리)</span>
+              <span id="smallText">COPYRIGHT (C) 2015 LOTTE GIANTS. ALL RIGHTS RESERVED.</span>
+            </div>
           </div>
-          <div class="footer-text-giantsInfo">
-            <span>(주)롯데자이언츠 대표: 이강훈</span>
-            <span>사업자등록번호: 607-81-19196</span>
-            <span> 통신판매업신고번호: 2008-부산동래-0283</span>
-            <span>부산광역시 동래구 사직로 45</span>
+          <div class="footer-WALogo">
+            <a href="https://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank">
+              <img src="resources/images/wa-mark.png" alt="wa-mark">
+            </a>
           </div>
-          <div class="footer-text-ticketSellerInfo">
-            <span>티켓판매대행사 : (주)대홍기획</span>
-            <span>사업자등록번호 : 821-88-01030</span>
-            <span>대표자명 : 홍성현</span>
-            <span>주소 : 서울시 중구 통일로 10</span>
-          </div>
-          <div class="footer-text-highlight">
-            <span>티켓콜센터. (051) 852-1982 (분실물 처리)</span>
-            <span>COPYRIGHT (C) 2015 LOTTE GIANTS. ALL RIGHTS RESERVED.</span>
-          </div>
-        </div>
-        <div class="footer-WALogo">
-          <a href="https://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank">
-            <img src="resources/images/wa-mark.png" alt="wa-mark">
-          </a>
         </div>
       </div>
     </div>
